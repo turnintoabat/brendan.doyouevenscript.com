@@ -1,0 +1,48 @@
+	body {
+		color: white;
+		font-family: sans-serif;
+		font-size: 15pt;
+		font-weight: 300 !important;
+		letter-spacing: -0.025em;
+		line-height: 1.75em;
+		text-align: center;
+		background-image: url(../img/bg.jpg);
+		background-repeat: no-repeat; 
+		background-position: center;
+		background-attachment: fixed;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover; 		
+		}
+
+	.s_media {
+		display: inline;
+		list-style-type: none;
+		padding-right: 20px;
+		color: white;
+	}
+		
+	#momerath {
+		color: #878787;
+	}
+
+	a:link { color: white; text-decoration: none; }
+	a:visited { color: white; text-decoration: none; }
+	a:hover { color: blue; text-decoration: none; }
+	
+	.centered {
+		left: 0;
+		line-height: 10px;
+		margin: auto;
+		margin-top: -100px;
+		position: absolute;
+		top: 50%;
+		width: 100%;
+	}
+	
+	img {
+		max-width: 100%;
+		height: auto;
+		width: auto\9; /* ie8 */
+	}
